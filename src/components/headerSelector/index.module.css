@@ -1,0 +1,27 @@
+.headerSelectorWrap {
+  width: 100%;
+  margin: 10px 0;
+}
+.headerSelectorWrap span {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.headerSelectorWrap .avatorWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.headerSelectorWrap .avatorWrap img {
+  background: #f5f5f5;
+  text-align: center;
+  color: #999999;
+  width: 14%;
+  margin: 8px;
+  border-radius: 50%;
+}
+.headerSelectorWrap .avatorWrap img.active {
+  outline: 5px solid #999999;
+  box-shadow: 0 0 5px #f5f5f5;
+}

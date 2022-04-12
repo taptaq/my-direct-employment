@@ -1,0 +1,21 @@
+.oppositeDialog {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+.oppositeDialog .content {
+  display: flex;
+  flex-direction: column;
+}
+.oppositeDialog .content span {
+  margin: 0 10px;
+  padding: 5px;
+}
+.oppositeDialog .content span:last-child {
+  color: #a89f9f;
+}

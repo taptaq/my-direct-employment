@@ -1,0 +1,28 @@
+.mineWrap {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.mineWrap .userMsg {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.mineWrap .userMsg .name {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.mineWrap .userMsg div {
+  margin: 4px 0;
+}
+
+.mineWrap button {
+  width: 100%;
+  margin: 10px 0;
+}

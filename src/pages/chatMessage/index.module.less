@@ -1,0 +1,100 @@
+.chatMsgWrap {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  padding: 10px;
+
+  .dialogWrap {
+    height: 80%;
+
+
+    .oppositeDialog {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin: 5px 0;
+
+      span {
+        box-shadow: 0 0 5px #ccc;
+        margin: 0 10px;
+        padding: 6px 8px;
+        border-radius: 5px
+      }
+    }
+
+    .selfDialog {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin: 5px 0;
+
+      span {
+        margin: 0 10px;
+        box-shadow: 0 0 5px #ccc;
+        padding: 6px 8px;
+        border-radius: 5px
+      }
+    }
+  }
+
+
+
+  .bottomWrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    background: #fff;
+
+
+
+    .inputWrap {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      border-top: 1px solid #ccc;
+
+
+      input {
+        outline: none;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        border-left: none;
+      }
+
+      button {
+        display: inline-block;
+        width: 20%;
+        border: 1px solid #ccc;
+        padding: 14px;
+        text-align: center;
+        background: #ccc;
+        border-right: none;
+      }
+    }
+
+    .emojiWrap {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 62%;
+      padding: 5px;
+      overflow: auto;
+      width: 100%;
+      padding-left: 30px;
+
+      .emojiItem {
+        width: 16%;
+        margin: 5px
+      }
+    }
+  }
+
+
+
+}

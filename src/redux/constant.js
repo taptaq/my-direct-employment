@@ -1,0 +1,9 @@
+export const SAVE_USER = 'SAVE_USER';
+
+export const RECEIVE_USER_LIST = 'RECEIVE_USER_LIST';
+
+export const GET_CHAT_MESSAGE_LIST = 'GET_CHAT_MESSAGE_LIST'; //接收多条信息
+
+export const GET_CHAT_MESSAGE = 'GET_CHAT_MESSAGE'; //接收一条信息
+
+export const CHANGE_MESSAGE_READ = 'CHANGE_MESSAGE_READ';
